@@ -1,0 +1,15 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+-f https://data.dgl.ai/wheels/torch-2.4/cu124/repo.html
+torch==2.4+cu124
+dgl
+pydantic
+torchdata==0.7.1
+numpy<2.0
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyter
+ipykernel
+rtdl_num_embeddings
+torch_geometric

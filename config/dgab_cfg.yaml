@@ -1,0 +1,18 @@
+batch_size: 256 # Default: 256
+hid_dim: 128 # Default: 256
+d_bin_dim: 64
+lr: 0.003
+wd: !!float 1e-4
+n_layers: 2
+dropout: [0.2, 0.1]
+device: "cuda"
+early_stopping: 20 # Default: 10
+n_fold: 5
+seed: 42
+max_epochs: 100
+gated: True
+dataset: "yelp"
+test_size: 0.4
+
+# Attention settings
+n_bins: 32 # Default: 32
